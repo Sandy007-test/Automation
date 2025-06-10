@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo:4.2
+    container_name: hlm-mongo
+    ports:
+      - "27017:27017"
+
+
+  healenium-proxy:
+    image: healenium/hlm-proxy:2.1.0
+    container_name: hlm-proxy
+    ports:
+      - "7878:7878"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/healenium
+      - HEALENIUM_SERVER_URL=http://hlm-backend:8085
+    depends_on:
+      - mongo
+      
