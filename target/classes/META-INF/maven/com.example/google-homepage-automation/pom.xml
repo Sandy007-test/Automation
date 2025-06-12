@@ -75,7 +75,23 @@
     <artifactId>healenium-web</artifactId>
     <version>3.5.1</version>
 </dependency>
-
+<dependency>
+    <groupId>com.google.cloud</groupId>
+    <artifactId>google-cloud-aiplatform</artifactId>
+    <version>3.40.0</version> </dependency>
+<dependency>
+    <groupId>com.google.cloud</groupId>
+    <artifactId>libraries-bom</artifactId>
+    <version>26.33.0</version> <type>pom</type>
+    <scope>import</scope>
+</dependency>
+<!-- Jackson for JSON parsing -->
+        <!-- JSON.org for simple JSON parsing -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20240303</version> <!-- Use a recent stable version, e.g., 20240303 -->
+        </dependency>
 
 
 		<!-- Healenium (Optional) -->

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="com.example.google_homepage_automation.AppTest" skipped="0" tests="1" time="2.48" timestamp="2025-06-11 12:10:37"><testcase classname="com.example.google_homepage_automation.AppTest" name="Search for amazon"><failure message="Expected condition failed: waiting for By.xpath: //p[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.1', revision: '8e34639b11'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //p[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="com.example.google_homepage_automation.AppTest" skipped="0" tests="1" time="4.54" timestamp="2025-06-12 10:00:31"><testcase classname="com.example.google_homepage_automation.AppTest" name="Search for amazon"><failure message="Expected condition failed: waiting for By.xpath: //h3[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.12.1', revision: '8e34639b11'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //h3[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //p[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //h3[contains(text(),'Amazonn')] to be present (tried for 5 second(s) with 100 milliseconds interval)
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: driver.version: unknown&#13;
@@ -11,7 +11,7 @@ net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&
 net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
 net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
 net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
-com.example.google_homepage_automation.AppTest.search_for_amazon(AppTest.java:84)&#13;
+com.example.google_homepage_automation.AppTest.search_for_amazon(AppTest.java:116)&#13;
 org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100)&#13;
 org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
 org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:520)&#13;
